@@ -29,3 +29,6 @@ print `("Pretty cool")`
 ---
 ### Adding changes through VS Code 
 [New Link](https://www.spotify.com/us/)
+
+[Lab Report 1](https://Gus-Mora.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+ 

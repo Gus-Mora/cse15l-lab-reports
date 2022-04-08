@@ -27,3 +27,5 @@ print `("Hello world!")`
 print `("Pretty cool")`
 ```
 ---
+### Adding changes through VS Code 
+[New Link](https://www.spotify.com/us/)

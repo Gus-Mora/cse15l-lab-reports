@@ -3,7 +3,8 @@
 
 1. Go to [VSCode download](https://code.visualstudio.com/download) and download Visual Studio code based on what operating system you are using
 2. After the file downloads run the file and have it install VScode 
-3. After the file downloads open VSCode and the home should look like the image above.   
+3. After the file downloads open VSCode and the home should look like the image above.
+
 ---
 ---
 
@@ -16,6 +17,7 @@
 5. type in your password and hit enter again 
 6. Say yes to the questions that are prompted to you
 7. The final results will take you to a screen that looks like the one above in VSCode
+
 ---
 ---
 
@@ -26,6 +28,7 @@
 2. These commands are able to do various things and you can simply just type them out
 3. You can find a list of commands [here](https://www.hostinger.com/tutorials/ssh/basic-ssh-commands)
 4. An example of running the command ls is listed above
+
 ---
 ---
 
@@ -40,6 +43,7 @@
 5. Type in your password similarly to what we did in the Remotely Connecting portion of this page
 6. Next, log bag into the remote server 
 7. The file should appear in your directory which you can find using ls and an example is shown above
+
 ---
 ---
 
@@ -60,6 +64,7 @@
     >scp /Users/<user-name>/.ssh/id_rsa.pub
 cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 10. finally once you move it over you should be able to just type in the ssh login command and you will not have to use your password anymore! 
+
 ---
 ---
 
@@ -73,6 +78,7 @@ cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 4. Secondly, you can run multiple commands at once which looks like:
     > cp WhereAmI.java OtherMain.java; javac OtherMain.java;
 5. An example of running the command while logging in is listed above!
+
 ---
 ---
 

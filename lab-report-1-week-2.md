@@ -76,7 +76,7 @@ cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 3. First, we can do one of two things and that is typing commands out before you even log in which looks like:
     >ssh cs15lsp22(username)@ieng6.ucsd.edu "(command here)"
 4. Secondly, you can run multiple commands at once which looks like:
-    > cp WhereAmI.java OtherMain.java; javac OtherMain.java;
+    > javac WhereAmI.java; java WhereAmI 
 5. An example of running the command while logging in is listed above!
 
 ---

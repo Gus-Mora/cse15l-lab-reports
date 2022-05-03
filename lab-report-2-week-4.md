@@ -4,7 +4,7 @@ The purpose of this report is to show the writing process when it comes to code.
 
 
 
-## Error 1 - Infinite   Loop
+## Error 1 - Infinite Loop
 
 [Test File 1 Link](https://github.com/Gus-Mora/markdown-parser/blob/main/new-test.md)
 
@@ -24,7 +24,7 @@ The visible symptom shown in the terminal was that there was a memory issue caus
 
 ![Code Change 2](fix2.png)
 
-Here we see the failure inducing input was that we were using images instead of links. Although they are formatted in a similar way images use an ! before the []. The logic error was that the code would simply ignore the exlamation make and read the images as links which created the visible symptom of the images being displayed as links.
+Here we see the failure inducing input was that we were using images instead of links. Although they are formatted in a similar way images use an ! before the []. The logic error was that the code would simply ignore the exlamation make and read the images as links which created the visible symptom of the image file names being displayed as link addresses.
 
 ---
 
@@ -36,10 +36,15 @@ Here we see the failure inducing input was that we were using images instead of 
 
 ![Code Change 3](fix3.png)
 
- 
+Finally we have the final test that results in an error showing the visible symptom of a link address that is just words. The link should not display the URL if there is no name attached to it as in markdown it will not display that link to the viewer. The logic error is similar to the one above in that reading [] the code does not see an issue with there being no words within it. This all resulted in the faulty input of having [] with no name attached to it.
 
 ---
 
 
 ### Code runing properly
+
 ![final image](coderunningprop.png)
+
+Here we can see that after changing the code and running the test files again the desired outputs are shown.
+
+---

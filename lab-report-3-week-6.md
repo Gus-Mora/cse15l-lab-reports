@@ -40,7 +40,7 @@ ___________
 
 ![Im1](LR3p8.png)
 
-Here we are now able to use scp -r and then state to which account and what directory we want to copy to the new account. This is helpful in transferring local files attached to a larger project to the remote server all at once instead of in pieces.
+Here we are now able to use `scp -r` and then state to which account and what directory we want to copy to the new account. This is helpful in transferring local files attached to a larger project to the remote server all at once instead of in pieces.
 
 ![Im1](LR3p9.png)
 
